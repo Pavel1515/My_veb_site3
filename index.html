@@ -48,7 +48,8 @@
           <a href="">Facebook</a>
         </div>
         <div class="line"></div>
-        <section class="services">
+        <!-- ---------------------------------------------- -->
+        <main class="services">
           <div class="services_item">
             <div class="services_square"><span></span></div>
             <div class="services_h1">
@@ -79,7 +80,8 @@
             </div>
             <div class="services_line"></div>
           </div>
-        </section>
+        </main>
+        <!-- ---------------------------------------------- -->
         <section class="processes">
           <p>Процесс & Этапы</p>
           <span
@@ -104,6 +106,7 @@
             </div>
           </div>
         </section>
+        <!-- ---------------------------------------------- -->
         <section class="projects">
           <h3>ПРОЕКТЫ СТУДИИ SWD</h3>
           <p>
@@ -135,6 +138,8 @@
             <div class="item_line"></div>
           </div>
         </section>
+
+        <!-- ---------------------------------------------- -->
         <section class="send">
           <div class="right">
             <div class="name">
@@ -144,12 +149,13 @@
             </div>
           </div>
           <div class="left">
-            <input placeholder="Имя" type="text" />
-            <input class="mt-45" placeholder="Телефон" type="text" />
-            <button>Подать заявку</button>
+            <input id="name" placeholder="Имя" type="text" />
+            <input id="phone" class="mt-45" placeholder="Телефон" type="text" />
+            <button id="button">Подать заявку</button>
           </div>
         </section>
         <div class="line-s"></div>
+        <!-- ---------------------------------------------- -->
         <footer>
           <div class="container">
             <div class="left">
@@ -178,6 +184,10 @@
     </div>
   </body>
   <script src="./javascript/main.js"></script>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+  ></script>
 </html>
 <!-- Josefin Sans -->
 <!-- Jost -->
