@@ -24,3 +24,16 @@ document.querySelector("#button").addEventListener("click", () => {
     );
   alert("Сообщение высланно нам мы вам перезвоним");
 });
+
+//Анимация
+
+const animateRotate = () => {
+  let deg = 90
+  setInterval(() => {
+    const image = document.querySelector("#right");
+    image.style = `transform: rotate(${deg}deg);`;
+    console.log(deg)
+  }, 100);
+  
+};
+window.onload = animateRotate();
