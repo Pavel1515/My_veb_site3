@@ -794,6 +794,12 @@ body .content footer .container .right a {
     margin: 0;
     line-height: 70px;
   }
+  .container .flex .right {
+    width: 100%;
+  }
+  .container .flex .right img {
+    width: 100%;
+  }
   .container .content {
     width: 320px;
   }
